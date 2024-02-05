@@ -27,13 +27,13 @@ export default function Footer() {
                 <div className='flex gap-2 sm:flex-row flex-col'>
                     <a className='bg-white flex items-center gap-2 rounded-full px-4 py-2 w-15 outline-none 
                     focus:scale-110 hover:scale-110 active:scale-105 transition'
-                    href='https://linkedin.com/in/michael-gavrincea-2b08861ba'>
-                        <BsLinkedin/>
+                    href='https://linkedin.com/in/michael-gavrincea-2b08861ba' aria-label='LinkedIn Link'>
+                        <BsLinkedin/> 
                     </a>
 
                     <a className='bg-white flex items-center gap-2 rounded-full px-4 py-2 text-[1.3rem] w-15 outline-none 
                     focus:scale-110 hover:scale-110 active:scale-105 transition'
-                    href='https://github.com/mikey0223?tab=repositories'>
+                    href='https://github.com/mikey0223?tab=repositories' aria-label='Github Link'>
                         <FaGithubSquare/>
                     </a>
                 </div>
