@@ -49,6 +49,7 @@ export default function Contact() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+                  aria-label="text area, enter your email address"
                 />
               </div>
               <div className="mb-6">
@@ -62,10 +63,11 @@ export default function Contact() {
                   onChange={(e) => setMessage(e.target.value)}
                   className="shadow appearance-none border rounded w-full py-2 px-3  mb-3 leading-tight focus:outline-none focus:shadow-outline"
                   rows={4}
+                  aria-label="Text area, enter your email message"
                 />
               </div>
               <div className="flex items-center justify-between">
-                <button type="submit" className="bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                <button type="submit" className="bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" aria-label="submit email button">
                   Submit
                 </button>
               </div>
